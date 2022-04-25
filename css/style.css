@@ -1,3 +1,29 @@
+/* commnon css */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.p_text {
+    color: #707070;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+
+a {
+    color: #060606 !important;
+    font-weight: 600;
+}
+
+.py-50 {
+    padding: 50px;
+}
+
+
 /* top header */
 
 .top_header {
