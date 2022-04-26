@@ -110,7 +110,7 @@ a {
 
 /* Welcome */
 
-.welcome__wrapper .div_title.title_main {
+.div_title.title_main {
     margin-bottom: 50px;
     padding-bottom: 26px;
 }
@@ -149,6 +149,7 @@ a {
 }
 
 .welcome__icon.icon_bg {
+    margin: 0 auto;
     color: #0d369f;
     font-size: 30px;
     background: rgb(13 54 159 / 9%);
@@ -156,4 +157,106 @@ a {
     height: 70px;
     line-height: 70px;
     border-radius: 50%;
+}
+
+.welcome__text .welcome__text_a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.welcome__text .welcome__text_a .welcome__text_h3 {
+    transition: all ease-in-out 0.5s;
+    margin: 20px 0;
+}
+
+.welcome__text_a:hover .welcome__text_h3 {
+    color: #ff6e65;
+}
+
+.welcome__text .welcome__text_p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+
+.courses__bg {
+    background-color: #f8f9ff;
+}
+
+.courses_detail_content .courses_thumb {
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+}
+
+.courses_thumb .courses_thumb_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.courses_thumb .course_list {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.course_list .course_list_ul {
+    display: flex;
+}
+
+.course_list_ul .course_list_li {
+    margin-right: 5px;
+    list-style: none;
+    border-radius: 4px;
+}
+
+.course_list_ul .course_list_li:nth-child(1) {
+    background-color: #ffa100;
+}
+
+.course_list_ul .course_list_li:nth-child(2) {
+    background-color: #1dc295;
+}
+
+.a_tdn {
+    text-decoration: none !important;
+}
+
+.course_list_li .course_list_a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: #FFFFFF !important;
+}
+
+.courses_thumb .course_price {
+    position: absolute;
+    right: 25px;
+    bottom: -15px;
+}
+
+.course_price h3 {
+    min-width: 70px;
+    min-height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ff6e65;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 20px rgb(241 77 93 / 20%);
+}
+
+.courses_detail_content .courses_text {
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #eee;
+    padding: 20px;
 }
