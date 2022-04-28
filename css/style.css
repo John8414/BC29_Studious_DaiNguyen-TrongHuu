@@ -402,9 +402,118 @@ a {
 }
 
 /* <!-- Classes --> */
-.Classes_bg {
-    background-image: url('../img/image.png');
+.classes_bg {
+    margin-top: 10px;
+    background-image: url('../img/bg3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: bottom;
+    /* padding-bottom: 100px; */
+}
+.classes_content.classes_content_deflex {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.classes_icon i {
+    margin-right: 16px;
+    color: #0d369f;
+    font-size: 28px;
+    background: rgb(13 54 159 / 9%);
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+}
+.Classes_text h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #060606;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.Classes_text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: 0.4px;
+    margin: 0 !important;
+}
+
+/* <!-- Numbers --> */
+.div_title .p_numbers {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+}
+.numbers_count_bdr {
+    border-right: 1px solid #eee;
+}
+.numbers_count span {
+    color: #060606;
+    font-size: 46px;
+    font-weight: 600;
+}
+.numbers_count p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #060606;
+    letter-spacing: 0.4px;
+}
+/* <!-- feedback --> */
+.feedback_col {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    padding: 2rem;
+}
+.feedback_quote {
+    display: flex;
+}
+.feedback_quote_before {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: 0.4px;
+}
+.feedback_quote_before::before {
+    content: open-quote;
+    font-size: 50px;
+    color: #ff6e65;
+    font-family: initial;
+    line-height: 0.8;
+    padding-top: 8px;
+    display: inline-block;
+}
+.feedback_author {
+    display: flex;
+    align-items: center;
+}
+.feedback_author img {
+    margin-right: 10px;
+}
+
+.feedback_author_text h3,
+.feedback_author_text p {
+    padding: 0;
+    margin: 0;
+}
+.feedback_author_text h3 {
+    font-weight: 600;
+    line-height: 16px;
+    color: #060606;
+    font-size: 20px;
+}
+.feedback_author_text p {
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    color: #707070;
 }
