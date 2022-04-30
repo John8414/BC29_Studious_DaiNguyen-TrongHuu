@@ -8,15 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <!-- Google font -->
-    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- Font awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -104,8 +101,8 @@
             </div>
         </nav>
     </header>
-    <!-- carousel data-ride ="carousel" -->
-    <div id="demo" class="carousel slide">
+    <!-- carousel  -->
+    <section id="demo" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="indicators_ul ul_de carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="dots_huu active"></li>
@@ -115,35 +112,68 @@
         <!-- The slideshow -->
 
         <div class="div_banner_slide carousel-inner">
-            <div class="div_banner_detail carousel-item active">
-                <img class="banner_img img-fluid" src="./img/banner2.jpeg" alt="" />
-                <div class="banner_slide_content">
-                    <div class="container">
-                        <div class="banner-info-bg">
-                            <h5>Master the Skills to Drive your Career</h5>
-                            <a href="">
-                                Know More
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
+            <div class="row">
+                <div class="div_banner_detail carousel-item active">
+                    <img class="banner_img img-fluid" src="./img/banner2.jpeg" alt="" />
+                    <div class="banner_slide_content">
+                        <div class="container">
+                            <div class="banner_info_bg">
+                                <h5>Master the Skills to Drive your Career</h5>
+                                <a class="btn_header btn btn-style mt-sm-5 mt-4" href="#">
+                                    Know More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="div_banner_detail carousel-item">
-                <img class="banner_img img-fluid" src="./img/banner3.jpeg" alt="" />
-                <div class="banner_slide_content">
-                    <div class="container">
-                        <div class="banner-info-bg">
-                            <h5>Master the Skills to Drive your Career</h5>
-                            <a href="">
-                                Know More
-                                <i class="fas fa-arrow-right"></i></a>
+                <div class="div_banner_detail carousel-item">
+                    <img class="banner_img img-fluid" src="./img/banner3.jpeg" alt="" />
+                    <div class="banner_slide_content">
+                        <div class="container">
+                            <div class="banner_info_bg">
+                                <h5>Studious is the best choice for everyone</h5>
+                                <a class="btn_header btn btn-style mt-sm-5 mt-4" href="#">
+                                    Know More
+                                    <i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- banner bottom  -->
+    <section class="banner_bottom pb-lg-5 text-center" id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+                    <div class="area_box color1">
+                        <i class="fas fa-cogs"></i>
+                        <h4><a class="title_head" href="#">Engineering & Architecture</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+                    <div class="area_box color2">
+                        <i class="fas fa-book"></i>
+                        <h4><a class="title_head" href="#">Learning Management</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+                    <div class="area_box color3">
+                        <i class="fas fa-coffee"></i>
+                        <h4><a class="title_head" href="#">Business & Management</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+                    <div class="area_box color4">
+                        <i class="fas fa-hourglass-half"></i>
+                        <h4><a class="title_head" href="#">Artificial Intelligence</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Welcome -->
     <section id="welcome">
         <div class="welcome__background py-50">
@@ -215,7 +245,7 @@
                 <!-- courses details -->
                 <div class="row">
                     <!-- course1 -->
-                    <div class=" col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="courses_detail_content">
                             <div class="courses_thumb">
                                 <img class="courses_thumb_img" src="./img/c1.jpg" alt="" />
@@ -237,12 +267,10 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            Intermediate
+                                            <i class="courses_text_top_i fa fa-signal"> </i> Intermediate
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
@@ -256,7 +284,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -292,7 +320,7 @@
                         </div>
                     </div>
                     <!-- course2 -->
-                    <div class=" col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="courses_detail_content">
                             <div class="courses_thumb">
                                 <img class="courses_thumb_img" src="./img/c2.jpg" alt="" />
@@ -317,18 +345,16 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            High
+                                            <i class="courses_text_top_i fa fa-signal"> </i> High
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="courses_text_mid welcome__text">
                                     <a class="welcome__text_a" href="#">
-                                        <h3 class="welcome__text_h3">It's enim ad minim ate </h3>
+                                        <h3 class="welcome__text_h3">It's enim ad minim ate</h3>
                                     </a>
                                     <p class="welcome__text_p">
                                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -336,7 +362,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -372,7 +398,7 @@
                         </div>
                     </div>
                     <!-- course3 -->
-                    <div class=" col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="courses_detail_content">
                             <div class="courses_thumb">
                                 <img class="courses_thumb_img" src="./img/c3.jpg" alt="" />
@@ -394,18 +420,18 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            Beginner
+                                            <i class="courses_text_top_i fa fa-signal"> </i> Beginner
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="courses_text_mid welcome__text">
                                     <a class="welcome__text_a" href="#">
-                                        <h3 class="welcome__text_h3">Ullamco laboris nisi uts </h3>
+                                        <h3 class="welcome__text_h3">
+                                            Ullamco laboris nisi uts
+                                        </h3>
                                     </a>
                                     <p class="welcome__text_p">
                                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -413,7 +439,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -471,12 +497,10 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            Intermediate
+                                            <i class="courses_text_top_i fa fa-signal"> </i> Intermediate
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
@@ -490,7 +514,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -548,12 +572,10 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            High
+                                            <i class="courses_text_top_i fa fa-signal"> </i> High
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
@@ -567,7 +589,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -625,18 +647,18 @@
                                 <div class="courses_text_top">
                                     <ul class="courses_text_top_ul nav">
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fa fa-signal"> </i>
-                                            Beginner
+                                            <i class="courses_text_top_i fa fa-signal"> </i> Beginner
                                         </li>
                                         <li class="courses_text_top_li nav-item">
-                                            <i class="courses_text_top_i fas fa-clock"></i>
-                                            10 week
+                                            <i class="courses_text_top_i fas fa-clock"></i> 10 week
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="courses_text_mid welcome__text">
                                     <a class="welcome__text_a" href="#">
-                                        <h3 class="welcome__text_h3">Ullamco laboris nisi uts</h3>
+                                        <h3 class="welcome__text_h3">
+                                            Ullamco laboris nisi uts
+                                        </h3>
                                     </a>
                                     <p class="welcome__text_p">
                                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -644,7 +666,7 @@
                                 </div>
                                 <div class="courses_text_bot mt-5 pt-4">
                                     <ul class="courses_text_bot_ul nav">
-                                        <li class=" courses_text_bot_li nav-item">
+                                        <li class="courses_text_bot_li nav-item">
                                             <a class="courses_text_bot_a" href="#">
                                                 <i class="courses_text_bot_i fas fa-star"></i>
                                             </a>
@@ -682,8 +704,8 @@
                 </div>
 
                 <!-- course btn -->
-                <div class=" course_btn text-center mt-5">
-                    <button class=" mybtn mybtn_de btn btn-success">
+                <div class="course_btn text-center mt-5">
+                    <button class="mybtn mybtn_de btn btn-success">
                         <a class="mybtn_a" href="#">
                             Browse more courses
                             <i class="mybtn_i fas fa-arrow-right"></i>
@@ -696,24 +718,155 @@
 
     <!-- Classes -->
     <section id="classes">
-        <div class="Classes_bg ">
-            <div class="container">
-                
-            </div>
+        <div class="Classes_bg">
+            <div class="container"></div>
         </div>
     </section>
+    <!-- footer -->
+    <footer class="footer_area mt-5 pt-5">
+        <div class="footer_area_sub">
+            <div class="container">
+                <div class="footer_area_sub_text">
+                    <div class="right_ride">
+                        <div class="row align-items-center footer_area_form">
+                            <div class="area_title col-md-6">
+                                <h4 class="title_head mb-lg-2">
+                                    Subscribe Us to join our Community
+                                </h4>
+                                <p>Newsletter</p>
+                            </div>
+                            <div class="title_head_2 col-md-6 mt-md-0 mt-4">
+                                <form action="#url" method="GET" class="rightside_form">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter your email" />
+                                    <button class="btn" type="submit">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row footer_area_sub_columns">
+                        <div class="col-lg-2 col-sm-6 sub_1_left">
+                            <h6>Quick links</h6>
+                            <ul>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>Home</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>About</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>Courses</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 sub_1_left pl-lg-5 mt-sm-0 mt-4">
+                            <h6>Help & Support</h6>
+                            <ul>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>Live
+                                        Chart</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="fa fa-angle-double-right mr-2"></span>Faq
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2"></span>
+                                        Support
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-angle-double-right mr-2" aria-hidden="true"></span>
+                                        Terms of Services
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 sub_2_right mt-lg-0 mt-sm-5 mt-4">
+                            <h6>Contact</h6>
+                            <div class="column2">
+                                <div class="href_1">
+                                    <span class="far fa-envelope"></span>
+                                    <a href="mailto:info@xample.com">info@example.com</a>
+                                </div>
+                                <div class="href_2">
+                                    <span class="fas fa-phone"></span>
+                                    <a href="tel:+44-000-888-999">+44-000-888-999</a>
+                                </div>
+                                <div>
+                                    <p class="contact_para">
+                                        <span class="fas fa-map-marker-alt" aria-hidden="true"></span>London, 235 Terry, 10001
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 sub_2_right about_right_cont pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
+                            <h6>About</h6>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.
+                            </p>
+                            <div class="column_2">
+                                <ul class="social">
+                                    <li>
+                                        <a href="#">
+                                            <span class="fab fa-facebook-f" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="fab fa-linkedin-in" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="fab fa-twitter" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="fab fa-google-plus-g" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="fab fa-github" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_area_2 text-center">
+            <div class="container">
+                <div class="columns">
+                    <p>
+                        @2021 Studious. All rights reserved. Design by
+                        <a href="#"></a>
+                        W3Layouts
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <!-- backtotop -->
+    <a href="#" class="backtotop cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out">
+        <i class="fas fa-level-up-alt"></i>
+    </a>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- backtotop -->
+    <script src="./libs/backtotop/main.js"></script>
+    <script src="./libs/backtotop/util.js"></script>
 </body>
 
 </html>
