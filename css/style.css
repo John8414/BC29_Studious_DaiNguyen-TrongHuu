@@ -153,6 +153,15 @@ a {
 .mode_dom .icons_moon {
     cursor: pointer;
 }
+.modeIcon {
+    border: none;
+    background: none;
+}
+.modeIcon i {
+    color: #060606;
+    font-size: 21px;
+    transform: rotate(-27deg);
+}
 
 .indicators_ul.ul_de {
     left: unset;
