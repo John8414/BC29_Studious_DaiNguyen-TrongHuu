@@ -1,0 +1,99 @@
+/* hearder  */
+.darkMode,
+.darkMode .dropdown-menu,
+.darkMode .form-control,
+.darkMode .classes_content.classes_content_deflex,
+.darkMode .feedback_col,
+.darkMode .right_ride {
+    background-color: #161c2d !important;
+}
+.darkMode,
+.darkMode .feedback_author_text p,
+.darkMode .feedback_quote_before,
+.darkMode .ins_text p,
+.darkMode .contactNow_decol_text p,
+.darkMode .Classes_text p {
+    color: #b7b7b7 !important;
+}
+.darkMode a,
+.darkMode .header_title .header_title_dark .header_title_dark_h1 .header_title_dark_a {
+    color: #fff !important;
+}
+.darkMode .top_header {
+    background-color: #4867b0 !important;
+}
+
+.darkMode .form-control {
+    border: 2px solid #eee;
+}
+.darkMode .courses__bg,
+.darkMode .courses_detail_content .courses_text {
+    background-color: #121725;
+}
+/* Welcome  */
+.darkMode .div_title.title_main .h2_title,
+.darkMode .feedback_author_text h3,
+.darkMode .form-control,
+.darkMode .courses_text_top_li,
+.darkMode .Classes_text h3,
+.darkMode .ins_text a,
+.darkMode .numbers_count span,
+.darkMode .numbers_count p,
+.darkMode .contactNow_decol_text h3,
+.darkMode .footer_area_form .title_head {
+    color: #fdfffc;
+}
+.darkMode .div_title.title_main .h2_title::before,
+.darkMode .div_title.title_main .h2_title::after {
+    background-color: #b7b7b7;
+}
+.darkMode .welcome__icon.icon_bg {
+    background-color: rgb(168 176 195 / 11%);
+}
+.darkMode .welcome__icon.icon_bg,
+.darkMode .classes_icon i,
+.darkMode .icons_search,
+.darkMode .modeIcon i {
+    color: #4867b0;
+}
+/* pick a course  */
+
+.darkMode .courses_detail_content .courses_text,
+.darkMode .footer_area_form .rightside_form input {
+    border: 1px solid rgb(255 255 255 / 20%);
+}
+.darkMode .courses_text_bot {
+    border-top: 1px solid rgb(255 255 255 / 20%);
+}
+.darkMode .know_detail_a a {
+    color: #ff6e65 !important;
+}
+
+/* classes */
+.darkMode .classes_icon i {
+    background-color: rgb(13 54 159 / 9%);
+}
+
+/* Numbers */
+.darkMode .numbers_count_bdr {
+    border-right: 1px px solid rgb(255 255 255 / 20%);
+}
+
+/* feedback  */
+.darkMode .feedback_col,
+.darkMode .ins_col_wrap {
+    box-shadow: 0 20px 62px hsl(222deg 34% 17%);
+}
+
+/* instructors */
+.darkMode .ins_col_wrap {
+    background: transparent;
+}
+
+.darkMode .footer_area_form .rightside_form button,
+.darkMode .backtotop {
+    background: #4867b0;
+}
+.darkMode .backtotop {
+    border: none;
+}
