@@ -22,7 +22,9 @@
 .darkMode .top_header {
     background-color: #4867b0 !important;
 }
-
+.darkMode .dropdown-item:hover{
+    background: none !important;
+}
 .darkMode .form-control {
     border: 2px solid #eee;
 }

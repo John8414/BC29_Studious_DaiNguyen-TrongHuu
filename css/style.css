@@ -121,6 +121,7 @@ a {
 
 .nav_header .navbar-nav .nav-item .dropdown-menu .dropdown-item {
     transition: all ease-in-out 0.5s;
+    text-transform: uppercase;
 }
 
 .nav_header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
