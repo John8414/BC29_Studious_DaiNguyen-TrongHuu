@@ -81,7 +81,8 @@
 
 /* feedback  */
 .darkMode .feedback_col,
-.darkMode .ins_col_wrap {
+.darkMode .ins_col_wrap,
+.darkMode .right_ride {
     box-shadow: 0 20px 62px hsl(222deg 34% 17%);
 }
 
@@ -96,4 +97,11 @@
 }
 .darkMode .backtotop {
     border: none;
+}
+
+.darkMode #switchLight{
+display: block;
+}
+.darkMode #switchMode {
+display: none;
 }
